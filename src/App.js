@@ -3,6 +3,7 @@ import './App.css';
 
 // import components
 import Header from './components/Header';
+import SimpleBottomNavigation from './components/MainNav';
 
 // import icons
 // import { BsFillCameraReelsFill } from "react-icons/bs";
@@ -16,6 +17,7 @@ function App() {
       <div className="App">
         testing
       </div>
+      <SimpleBottomNavigation />
     </>
     
   );
