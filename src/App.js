@@ -49,3 +49,16 @@ inside of our router of our ReactRouterDOM, so the application needs to be wrapp
 2. Create navigation inside the BrowserRouter
 3. Container from Material UI 
 */
+
+/* 
+QUESTIONS:
+- What is <BrowserRouter> used for?
+- What is <Container> used for?
+- What is <Switch> used for?
+- What is <Route /> used for?
+  - How to create routes?
+
+
+
+
+*/
