@@ -1,3 +1,4 @@
+
 .header {
     width: 100%;
     cursor: pointer;
@@ -6,10 +7,11 @@
     justify-content: center;
     text-transform: uppercase;
     background-color: #39445a;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 5vw;
-    padding-bottom: 1rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.7rem;
+    padding: 1rem 0;
     box-shadow: 0 1px 5px #000;
     color: #fff;
     z-index: 100;
 }
+
