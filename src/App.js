@@ -1,29 +1,33 @@
-import { Container, Switch } from '@mui/material';
+import { Container } from '@mui/material';
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 // import components
 import Header from './components/Header';
 import SimpleBottomNavigation from './components/MainNav';
+import Trending from './Pages/Trending/Trending';
+import Movies from './Pages/Movies/Movies'
+import Series from './Pages/Series/Series'
+import Search from './Pages/Search/Search'
 
 // import icons
 // import { BsFillCameraReelsFill } from "react-icons/bs";
 {/* <BsFillCameraReelsFill /> */}
 
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Header />
       <div className="App">
         <Container>
-          <Switch>
+          <Routes>
             <Route path='/' component={Trending} exact/> {/* this route is given an exact keyword so that it doesn't overlap once it is also inside of the the other routes */}
             <Route path='/movies' component={Movies} />
             <Route path='/series' component={Series} />
             <Route path='/search' component={Search} />
-          </Switch>
+          </Routes>
         </Container>
       </div>
       <SimpleBottomNavigation /> 
