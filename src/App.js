@@ -23,10 +23,11 @@ const App = () => {
       <div className="App">
         <Container>
           <Routes>
-            <Route path='/' component={Trending} exact/> {/* this route is given an exact keyword so that it doesn't overlap once it is also inside of the the other routes */}
-            <Route path='/movies' component={Movies} />
-            <Route path='/series' component={Series} />
-            <Route path='/search' component={Search} />
+            {/* Setting up the routes, to each component element will be given a path */}
+            <Route path='/' element={<Trending />} exact/> {/* this route is given an exact keyword so that it doesn't overlap once it is also inside of the the other routes */}
+            <Route path='/movies' element={<Movies />} />
+            <Route path='/series' element={<Series />} />
+            <Route path='/search' element={<Search />} />
           </Routes>
         </Container>
       </div>
