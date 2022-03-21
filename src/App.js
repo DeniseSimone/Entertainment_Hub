@@ -13,7 +13,7 @@ import Search from './Pages/Search/Search'
 
 // import icons
 // import { BsFillCameraReelsFill } from "react-icons/bs";
-{/* <BsFillCameraReelsFill /> */}
+// <BsFillCameraReelsFill /> 
 
 
 const App = () => {
