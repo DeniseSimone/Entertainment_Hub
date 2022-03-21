@@ -18,8 +18,8 @@ const SimpleBottomNavigation = () => {
   useEffect(() => { // useEffect is going to be fired whenever 'value' changes
     if (value === 0) navigate("/");
     else if (value === 1) navigate("/movies");
-    else if (value === 2) navigate("/Series");
-    else if (value === 1) navigate("/search");
+    else if (value === 2) navigate("/series");
+    else if (value === 3) navigate("/search");
   }, [value, navigate])
 
   return (
