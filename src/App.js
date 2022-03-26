@@ -20,7 +20,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
-      <div className="App">
+      <div className="app">
         <Container>
           <Routes>
             {/* Setting up the routes, to each component element will be given a path */}
@@ -67,3 +67,5 @@ QUESTIONS:
 
 
 */
+
+// .env file will be added to git ignore so it doesnt get pushed to github and our API key remains a secret
