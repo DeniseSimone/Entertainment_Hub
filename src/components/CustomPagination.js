@@ -1,4 +1,4 @@
-import { createMuiTheme, Pagination } from '@mui/material';
+import { Pagination } from '@mui/material';
 import React from 'react';
 import '../styles/CustomPagination.css'
 

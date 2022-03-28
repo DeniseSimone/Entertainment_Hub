@@ -25,13 +25,12 @@ const Genres = ({selectedGenres, setSelectedGenres, genres, setGenres, type, set
     }
 
     useEffect( () => {
+        // eslint-disable-next-line
         fetchGenres();
         return () => {
             setGenres({})
         }; 
-        
         // eslint-disable-next-line
-      
     }, []);
 
     

@@ -52,7 +52,7 @@ const Search = () => {
             <Tabs 
                 value={type} 
                 indicatorColor='primary' 
-                textColor='white'
+                textColor='inherit'
                 onChange={(e, newValue) => {
                     setType(newValue);
                     setPage(1);
