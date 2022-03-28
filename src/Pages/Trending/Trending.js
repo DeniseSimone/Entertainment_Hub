@@ -15,7 +15,8 @@ const Trending =  () => {
     };
 
     useEffect( () => {
-        fetchTrending()
+        fetchTrending();
+        // eslint-disable-next-line
     }, [page]); // when page changes fetchTrending is executed
 
 
